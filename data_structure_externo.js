@@ -19,11 +19,11 @@ const FORM_STRUCTURE = {
             { name: 'operador', label: 'Operador', type: 'text', placeholder: 'Nome do operador', auto: 'suggest_name', required: true },
             { name: 'supervisor', label: 'Supervisor', type: 'text', placeholder: 'Nome do supervisor', auto: 'suggest_name', required: true },
             { name: 'turma', label: 'Turma', type: 'select', options: ['A', 'B', 'C', 'D', 'E'], required: true },
-            // Adicionado para padronização com o formulário interno
+            // Adicionado para padronização
             { name: 'turno', label: 'Turno', type: 'select', options: ['07h as 15h', '15h as 23h', '23h as 07h'], required: true },
             { name: 'status_usina', label: 'Status da usina', type: 'select', options: ['QUENTE ♨️', 'FRIA ❄️', 'OPERANDO🚀'], required: true }
         ]
-    }, // <-- CHAVES E VÍRGULA CORRIGIDAS AQUI
+    },
 
     // Janela 02 – Bomba dos Poços
     'bomba-pocos': {
